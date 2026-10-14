@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casa Quatorze · Portfolio sample</title>
+<meta name="description" content="Landing page copywriting sample for a fictional luxury residential development in São Paulo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0e0d0b;color:#efe9dd;font-family:'Jost',sans-serif;font-weight:300}
+a{color:#c7a972;text-decoration:none}
+a:hover{color:#e3cfa5}
+h1,h2{margin:0;font-family:'Cormorant Garamond',serif;font-weight:300}
+.wrap{max-width:1120px;margin:0 auto;padding-left:24px;padding-right:24px}
+.eyebrow{font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:#c7a972;margin-bottom:24px}
+.h2{font-size:clamp(36px,5vw,56px);line-height:1.08}
+.band{border-top:1px solid #2a2722;border-bottom:1px solid #2a2722;background:#12110e}
+.row{display:flex;flex-wrap:wrap}
+.btn{display:inline-block;background:#c7a972;color:#0e0d0b;padding:18px 36px;font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:500;border:0;cursor:pointer;font-family:'Jost',sans-serif;min-height:44px}
+.btn:hover{background:#e3cfa5;color:#0e0d0b}
+.ph{border:1px solid #2a2722;background:linear-gradient(135deg,#1a1814 0%,#0e0d0b 55%,#24201a 100%);display:flex;align-items:flex-end;padding:24px;color:#6f695e;font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+.muted{color:#b9b2a4}.dim{color:#a8a195}.faint{color:#8f897d}
+.card{flex:1 1 300px;min-width:0;border:1px solid #2a2722;padding:36px;display:flex;flex-direction:column;gap:16px}
+.card .k{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#c7a972}
+.card .t{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:400}
+.pillar{display:flex;flex-wrap:wrap;gap:16px;padding:24px 0;border-bottom:1px solid #2a2722}
+.pillar .n{font-family:'Cormorant Garamond',serif;font-size:22px;color:#c7a972;min-width:36px}
+.pillar .a{flex:1 1 220px}
+.pillar .a b{display:block;font-weight:300;font-size:15px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:6px}
+.tabs{display:flex;flex-wrap:wrap;border-bottom:1px solid #2a2722;margin-bottom:32px}
+.tab{background:transparent;border:0;border-bottom:2px solid transparent;color:#8f897d;font-family:'Jost',sans-serif;font-size:15px;padding:14px 4px;margin-right:28px;margin-bottom:-1px;cursor:pointer;min-height:44px;text-align:left}
+.tab[aria-selected="true"]{border-bottom-color:#c7a972;color:#efe9dd}
+.panel[hidden]{display:none}
+.plan{background:#14130f;border:1px solid #2a2722;padding:24px}
+.plan svg{width:100%;max-width:860px;height:auto;display:block;margin:0 auto}
+.cap{margin-top:28px;display:flex;flex-wrap:wrap;gap:24px 64px}
+.cap .ct{flex:1 1 280px;font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:400}
+.cap .cd{flex:2 1 360px;font-size:16px;line-height:1.7;color:#a8a195}
+.col{flex:1 1 280px;min-width:0;border-top:1px solid #2a2722}
+.col .ch{padding:22px 0 8px;font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:#c7a972}
+.col div+div{padding:12px 0;font-size:16px;color:#b9b2a4}
+.line{padding:22px 0;border-bottom:1px solid #2a2722;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}
+.faq{padding:28px 0;border-bottom:1px solid #2a2722}
+.faq b{display:block;font-weight:300;font-size:17px;margin-bottom:10px}
+.faq span{font-size:16px;line-height:1.7;color:#a8a195}
+label{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#a8a195}
+input{background:transparent;border:0;border-bottom:1px solid #4a453b;color:#efe9dd;font-size:18px;padding:10px 0;outline:none;font-family:'Jost',sans-serif}
+input:focus{border-bottom-color:#c7a972}
+.field{display:flex;flex-direction:column;gap:8px}
+</style>
+</head>
+<body>
+
+<header class="wrap row" style="padding-top:28px;padding-bottom:28px;gap:16px;align-items:center;justify-content:space-between">
+<div style="font-family:'Cormorant Garamond',serif;font-size:26px;letter-spacing:.14em;text-transform:uppercase">Casa Quatorze</div>
+<nav class="row" style="gap:28px;font-size:13px;letter-spacing:.16em;text-transform:uppercase">
+<a href="#about">The Residence</a><a href="#plans">Floor plans</a><a href="#amenities">Amenities</a><a href="#neighbourhood">Itaim Bibi</a><a href="#private-viewing">Private viewing</a>
+</nav>
+</header>
+
+<section class="wrap" style="padding-top:96px;padding-bottom:120px">
+<div class="eyebrow" style="margin-bottom:32px">Casa Quatorze · Itaim Bibi, São Paulo</div>
+<h1 style="font-size:clamp(52px,9vw,112px);line-height:.98;letter-spacing:-.01em;max-width:960px">Room to live. In the middle of the city.</h1>
+<p class="muted" style="margin:40px 0 0;max-width:600px;font-size:19px;line-height:1.65">Fourteen private residences with open-plan living, a generous terrace and a leisure floor made for slow weekends. Quiet by design, close to everything.</p>
+<div class="row" style="margin-top:48px;gap:24px;align-items:center">
+<a class="btn" href="#private-viewing">Talk to a specialist →</a>
+<span class="faint" style="font-size:14px">By appointment only · [Delivery date]</span>
+</div>
+<div class="ph" style="margin-top:80px;height:420px">[ Hero image: façade at dusk ]</div>
+</section>
+
+<section id="about" class="band">
+<div class="wrap row" style="padding-top:112px;padding-bottom:112px;gap:64px">
+<div style="flex:1 1 320px;min-width:0">
+<div class="eyebrow">The Residence</div>
+<h2 class="h2">Space you can feel the moment you walk in.</h2>
+</div>
+<div style="flex:1 1 360px;min-width:0">
+<p class="muted" style="margin:0;font-size:18px;line-height:1.75">Every residence at Casa Quatorze is planned around one idea: the social area should feel like a single generous room. Living, dining and kitchen open to a terrace at the same level, so light and air move through the whole home.</p>
+<div style="margin-top:48px;border-top:1px solid #2a2722">
+<div class="pillar"><span class="n">I</span><div class="a"><b>Space</b><span class="dim" style="font-size:16px;line-height:1.6">[Area] m² residences with four suites and a private storage room.</span></div></div>
+<div class="pillar"><span class="n">II</span><div class="a"><b>Comfort</b><span class="dim" style="font-size:16px;line-height:1.6">Acoustic insulation in the bedrooms and air conditioning ready in every suite.</span></div></div>
+<div class="pillar"><span class="n">III</span><div class="a"><b>Leisure</b><span class="dim" style="font-size:16px;line-height:1.6">Pool, spa and fitness studio, all inside the building.</span></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="residences" class="wrap" style="padding-top:112px;padding-bottom:112px">
+<div class="eyebrow">Residences</div>
+<h2 class="h2" style="margin-bottom:56px;max-width:700px">Built around how you live, not how a brochure looks.</h2>
+<div class="row" style="gap:24px">
+<div class="card"><div class="k">Residence</div><div class="t">[Area] m² · 4 suites</div><div class="dim" style="font-size:16px;line-height:1.65">One size, three layouts. [Parking] spaces and a private storage room included.</div></div>
+<div class="card"><div class="k">Penthouse</div><div class="t">The Penthouse</div><div class="dim" style="font-size:16px;line-height:1.65">Double-height living space and a rooftop terrace above the neighbourhood. [Penthouse details]</div></div>
+<div class="card"><div class="k">Made yours</div><div class="t">Adjustable plans</div><div class="dim" style="font-size:16px;line-height:1.65">Choose your layout and finishes while construction is still in progress. [Customisation terms]</div></div>
+</div>
+<div class="ph" style="margin-top:24px;height:360px">[ Interior image: living room and terrace ]</div>
+</section>
+
+<section id="plans" class="wrap" style="padding-bottom:112px">
+<div class="eyebrow">Floor plans</div>
+<h2 class="h2" style="margin-bottom:24px;max-width:760px">Same size. Three ways to arrange it.</h2>
+<p class="muted" style="margin:0 0 48px;max-width:640px;font-size:18px;line-height:1.7">Open-plan layouts with natural light and ventilation, and views on both sides of the block.</p>
+
+<div class="tabs" role="tablist">
+<button class="tab" role="tab" id="tab-a" aria-controls="panel-a" aria-selected="true" type="button">Plan A · 4 suites</button>
+<button class="tab" role="tab" id="tab-b" aria-controls="panel-b" aria-selected="false" type="button">Plan B · Expanded master bath</button>
+<button class="tab" role="tab" id="tab-c" aria-controls="panel-c" aria-selected="false" type="button">Plan C · Master suite + office</button>
+</div>
+
+<div class="panel" id="panel-a" role="tabpanel" aria-labelledby="tab-a">
+<div class="plan">
+<svg viewBox="0 0 460 300" role="img" aria-label="Schematic floor plan A: terrace, living room, dining room, three suites, kitchen, service area, lavabo and master suite">
+<rect x="10" y="10" width="440" height="280" fill="none" stroke="#c7a972" stroke-width="2"/>
+<rect x="10" y="10" width="440" height="36" fill="none" stroke="#6f695e"/>
+<rect x="10" y="46" width="140" height="120" fill="none" stroke="#6f695e"/>
+<rect x="150" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="250" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="350" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="10" y="166" width="100" height="124" fill="none" stroke="#6f695e"/>
+<rect x="110" y="166" width="70" height="124" fill="none" stroke="#6f695e"/>
+<rect x="180" y="166" width="50" height="124" fill="none" stroke="#6f695e"/>
+<rect x="230" y="166" width="100" height="124" fill="none" stroke="#6f695e"/>
+<rect x="330" y="166" width="120" height="124" fill="none" stroke="#6f695e"/>
+<g fill="#a8a195" font-family="Jost,sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">
+<text x="230" y="32">TERRACE</text><text x="80" y="110">LIVING</text><text x="200" y="110">DINING</text><text x="300" y="110">SUITE 2</text><text x="400" y="110">SUITE 3</text><text x="60" y="232">KITCHEN</text><text x="145" y="232">SERVICE</text><text x="205" y="232" font-size="8">LAVABO</text><text x="280" y="232">SUITE 4</text><text x="390" y="232">MASTER SUITE</text>
+</g>
+</svg>
+</div>
+<div class="cap"><div class="ct">Plan A · [Area] m² · 4 suites</div><div class="cd">The classic layout: separate living, dining and kitchen, a terrace along the front, and four suites.</div></div>
+</div>
+
+<div class="panel" id="panel-b" role="tabpanel" aria-labelledby="tab-b" hidden>
+<div class="plan">
+<svg viewBox="0 0 460 300" role="img" aria-label="Schematic floor plan B: integrated living room, kitchen and terrace, two suites, service area, pantry, lavabo, a fourth suite and a master suite with expanded bathroom">
+<rect x="10" y="10" width="440" height="280" fill="none" stroke="#c7a972" stroke-width="2"/>
+<rect x="10" y="10" width="440" height="36" fill="none" stroke="#6f695e"/>
+<rect x="10" y="46" width="240" height="120" fill="none" stroke="#6f695e"/>
+<rect x="250" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="350" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="10" y="166" width="90" height="124" fill="none" stroke="#6f695e"/>
+<rect x="100" y="166" width="80" height="124" fill="none" stroke="#6f695e"/>
+<rect x="180" y="166" width="50" height="124" fill="none" stroke="#6f695e"/>
+<rect x="230" y="166" width="100" height="124" fill="none" stroke="#6f695e"/>
+<rect x="330" y="166" width="120" height="124" fill="none" stroke="#6f695e"/>
+<g fill="#a8a195" font-family="Jost,sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">
+<text x="230" y="32">TERRACE (INTEGRATED)</text><text x="130" y="110">LIVING + KITCHEN (INTEGRATED)</text><text x="300" y="110">SUITE 2</text><text x="400" y="110">SUITE 3</text><text x="55" y="232">SERVICE</text><text x="140" y="232">PANTRY</text><text x="205" y="232" font-size="8">LAVABO</text><text x="280" y="232">SUITE 4</text><text x="390" y="226">MASTER SUITE</text><text x="390" y="240">+ EXPANDED BATH</text>
+</g>
+</svg>
+</div>
+<div class="cap"><div class="ct">Plan B · [Area] m² · Expanded master bath</div><div class="cd">A larger master bathroom, with living room, kitchen and terrace integrated into a single space.</div></div>
+</div>
+
+<div class="panel" id="panel-c" role="tabpanel" aria-labelledby="tab-c" hidden>
+<div class="plan">
+<svg viewBox="0 0 460 300" role="img" aria-label="Schematic floor plan C: terrace, living room, gourmet kitchen, two suites, office, service area, lavabo, a third suite and an expanded master suite">
+<rect x="10" y="10" width="440" height="280" fill="none" stroke="#c7a972" stroke-width="2"/>
+<rect x="10" y="10" width="440" height="36" fill="none" stroke="#6f695e"/>
+<rect x="10" y="46" width="140" height="120" fill="none" stroke="#6f695e"/>
+<rect x="150" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="250" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="350" y="46" width="100" height="120" fill="none" stroke="#6f695e"/>
+<rect x="10" y="166" width="100" height="124" fill="none" stroke="#6f695e"/>
+<rect x="110" y="166" width="70" height="124" fill="none" stroke="#6f695e"/>
+<rect x="180" y="166" width="50" height="124" fill="none" stroke="#6f695e"/>
+<rect x="230" y="166" width="80" height="124" fill="none" stroke="#6f695e"/>
+<rect x="310" y="166" width="140" height="124" fill="none" stroke="#6f695e"/>
+<g fill="#a8a195" font-family="Jost,sans-serif" font-size="9" text-anchor="middle" letter-spacing="1">
+<text x="230" y="32">TERRACE (INTEGRATED)</text><text x="80" y="110">LIVING</text><text x="200" y="104">GOURMET</text><text x="200" y="118">KITCHEN</text><text x="300" y="110">SUITE 2</text><text x="400" y="110">SUITE 3</text><text x="60" y="232">OFFICE</text><text x="145" y="232">SERVICE</text><text x="205" y="232" font-size="8">LAVABO</text><text x="270" y="232">SUITE 4</text><text x="380" y="226">EXPANDED MASTER</text><text x="380" y="240">SUITE + CLOSET</text>
+</g>
+</svg>
+</div>
+<div class="cap"><div class="ct">Plan C · [Area] m² · Master suite + office</div><div class="cd">An expanded master suite with closet, a dedicated office, and a gourmet kitchen, with living room and terrace integrated.</div></div>
+</div>
+
+<p class="faint" style="margin:40px 0 0;font-size:13px;line-height:1.6">Schematic plans, illustrative only and not to scale.</p>
+</section>
+
+<section id="amenities" class="band">
+<div class="wrap" style="padding-top:112px;padding-bottom:112px">
+<div class="eyebrow">Amenities</div>
+<h2 class="h2" style="margin-bottom:56px;max-width:760px">Everything you'd leave home for, already at home.</h2>
+<div class="row" style="gap:48px">
+<div class="col"><div class="ch">Sport and wellness</div><div>Rooftop pool</div><div>Fitness studio</div><div>Spa with steam sauna</div><div>Massage room and quiet lounge</div></div>
+<div class="col"><div class="ch">Family and pets</div><div>Children's pool and playroom</div><div>Garden with play area</div><div>Pet area with bathing space</div></div>
+<div class="col"><div class="ch">Social</div><div>Lounge with bar</div><div>Private dining room</div><div>Coworking space</div><div>Lobby with concierge</div></div>
+</div>
+</div>
+</section>
+
+<section id="neighbourhood" class="wrap row" style="padding-top:112px;padding-bottom:112px;gap:64px;align-items:flex-start">
+<div style="flex:1 1 320px;min-width:0">
+<div class="eyebrow">Itaim Bibi</div>
+<h2 class="h2">Central, without the noise.</h2>
+<p class="muted" style="margin:32px 0 0;font-size:18px;line-height:1.75">Itaim Bibi is where São Paulo's business life and its best tables meet. Casa Quatorze sits on a calm street, so your day is close and your evenings are quiet.</p>
+</div>
+<div style="flex:1 1 360px;min-width:0;border-top:1px solid #2a2722">
+<div class="line"><span style="font-size:16px">Offices and the business district</span><span class="faint" style="font-size:14px">[X] min walk</span></div>
+<div class="line"><span style="font-size:16px">Parks and green space</span><span class="faint" style="font-size:14px">[X] min walk</span></div>
+<div class="line"><span style="font-size:16px">Restaurants and shopping</span><span class="faint" style="font-size:14px">[X] min walk</span></div>
+<div class="line"><span style="font-size:16px">Airport access</span><span class="faint" style="font-size:14px">[X] min by car</span></div>
+</div>
+</section>
+
+<section class="wrap row" style="border-top:1px solid #2a2722;padding-top:112px;padding-bottom:112px;gap:64px">
+<div style="flex:1 1 320px;min-width:0">
+<div class="eyebrow">Before you ask</div>
+<h2 class="h2">Straight answers.</h2>
+</div>
+<div style="flex:1 1 400px;min-width:0;border-top:1px solid #2a2722">
+<div class="faq"><b>Can I change the layout?</b><span>Yes, within the limits of the structure. You can choose between three plans and adjust finishes while construction is still in progress. [Customisation terms]</span></div>
+<div class="faq"><b>Can foreign buyers purchase here?</b><span>Yes. Our team explains each legal and tax step, from registration to closing, in English.</span></div>
+<div class="faq"><b>Why only fourteen residences?</b><span>Because privacy and service cannot be scaled up. Fewer homes means more attention to each one.</span></div>
+<div class="faq"><b>When is delivery, and how do I pay?</b><span>Delivery date and payment terms are shared during your private viewing. [Delivery date] · [Payment plan details]</span></div>
+</div>
+</section>
+
+<section id="private-viewing" class="band" style="border-bottom:0">
+<div style="max-width:760px;margin:0 auto;padding:112px 24px 128px;text-align:center">
+<div class="eyebrow">Private viewing</div>
+<h2 style="font-size:clamp(38px,6vw,64px);line-height:1.05">Interested? Talk to a specialist.</h2>
+<p class="muted" style="margin:28px auto 0;max-width:520px;font-size:18px;line-height:1.7">Leave your details and a specialist will message you on WhatsApp.</p>
+<form onsubmit="return false" style="margin-top:56px;display:flex;flex-direction:column;gap:20px;text-align:left">
+<div class="field"><label for="f-name">Full name</label><input id="f-name" type="text"></div>
+<div class="field"><label for="f-email">Email</label><input id="f-email" type="email"></div>
+<div class="field"><label for="f-phone">WhatsApp (with country code)</label><input id="f-phone" type="tel"></div>
+<button class="btn" type="submit" style="margin-top:20px">Talk to a specialist on WhatsApp →</button>
+</form>
+</div>
+</section>
+
+<footer style="border-top:1px solid #2a2722;padding:40px 24px">
+<div class="wrap row faint" style="padding:0;gap:16px;justify-content:space-between;font-size:13px;line-height:1.6">
+<div>Casa Quatorze · Itaim Bibi, São Paulo</div>
+<div style="max-width:620px">Portfolio sample · Fictional development · Copywriting by Jonathas Augusto.</div>
+</div>
+</footer>
+
+<script>
+(function () {
+  var tabs = document.querySelectorAll('.tab');
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      tabs.forEach(function (t) {
+        var on = t === tab;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>
